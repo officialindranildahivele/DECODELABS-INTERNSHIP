@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="robots" content="index,follow" />
+    <meta name="author" content="DecodeLabs" />
+    <meta
+      name="keywords"
+      content="software agency, landing page, responsive web design, UI/UX, frontend development"
+    />
+    <meta
+      name="description"
+      content="DecodeLabs builds modern digital products with strategy, design, and engineering for ambitious teams."
+    />
+    <link rel="canonical" href="./" />
+    <meta property="og:title" content="DecodeLabs | Modern Digital Solutions" />
+    <meta
+      property="og:description"
+      content="Modern responsive landing page for a fictional software company built with semantic HTML, CSS, and vanilla JavaScript."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="images/hero-illustration.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="DecodeLabs | Modern Digital Solutions" />
+    <meta
+      name="twitter:description"
+      content="Modern responsive landing page for a fictional software company built with semantic HTML, CSS, and vanilla JavaScript."
+    />
+    <meta name="twitter:image" content="images/hero-illustration.svg" />
+    <meta name="theme-color" content="#0f172a" />
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+    <title>DecodeLabs | Modern Digital Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="theme-toggle">
+      <button id="themeToggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">
+        <span class="theme-icon" aria-hidden="true">☀️</span>
+      </button>
+    </div>
+
+    <header class="site-header" id="top">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home" aria-label="DecodeLabs home">
+          <span class="brand-mark" aria-hidden="true">D</span>
+          <span>DecodeLabs</span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Toggle navigation"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section" id="home" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div class="hero-content reveal">
+            <p class="eyebrow">World-Class Product Engineering</p>
+            <h1 id="hero-title">We build <span class="typing" aria-live="polite"></span></h1>
+            <p class="hero-copy">
+              DecodeLabs creates elegant digital products for ambitious brands ready to scale.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#contact">Start a Project</a>
+              <a class="btn btn-secondary" href="#portfolio">View Work</a>
+            </div>
+            <ul class="hero-highlights" aria-label="Key highlights">
+              <li>⚡ Fast Delivery</li>
+              <li>🧠 Smart Strategy</li>
+              <li>🔒 Secure by Design</li>
+            </ul>
+          </div>
+          <div class="hero-visual reveal">
+            <div class="hero-card">
+              <img
+                src="images/hero-illustration.svg"
+                alt="Illustration of a digital team building a product"
+                fetchpriority="high"
+                decoding="async"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about" aria-labelledby="about-title">
+        <div class="container about-grid">
+          <div class="about-image reveal">
+            <img
+              src="images/about-illustration.svg"
+              alt="Illustration of a creative team planning a product strategy"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <div class="about-content reveal">
+            <p class="eyebrow">About DecodeLabs</p>
+            <h2 id="about-title">Helping founders turn bold ideas into remarkable products.</h2>
+            <p>
+              We blend product thinking, visual design, and engineering to launch digital experiences that feel premium and perform beautifully.
+            </p>
+            <div class="about-points">
+              <article>
+                <h3>Mission</h3>
+                <p>Deliver thoughtful software that simplifies complexity and unlocks growth.</p>
+              </article>
+              <article>
+                <h3>Vision</h3>
+                <p>Shape a future where technology feels intuitive, inclusive, and inspiring.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section" id="services" aria-labelledby="services-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Services</p>
+            <h2 id="services-title">Built to support every stage of your growth.</h2>
+            <p>From launch-ready MVPs to scalable platforms, our services cover every essential layer.</p>
+          </div>
+          <div class="services-grid">
+            <article class="service-card reveal">
+              <div class="icon" aria-hidden="true">⚡</div>
+              <h3>Rapid Prototyping</h3>
+              <p>Turn your idea into a polished prototype in days, not months.</p>
+            </article>
+            <article class="service-card reveal">
+              <div class="icon" aria-hidden="true">🎨</div>
+              <h3>UI/UX Design</h3>
+              <p>Craft intuitive, conversion-focused experiences with modern aesthetics.</p>
+            </article>
+            <article class="service-card reveal">
+              <div class="icon" aria-hidden="true">💻</div>
+              <h3>Frontend Development</h3>
+              <p>Create fast, responsive, and accessible interfaces that delight users.</p>
+            </article>
+            <article class="service-card reveal">
+              <div class="icon" aria-hidden="true">🛠️</div>
+              <h3>Backend Engineering</h3>
+              <p>Build reliable APIs and scalable systems for growing products.</p>
+            </article>
+            <article class="service-card reveal">
+              <div class="icon" aria-hidden="true">📈</div>
+              <h3>Growth Strategy</h3>
+              <p>Align product, content, and analytics to accelerate traction.</p>
+            </article>
+            <article class="service-card reveal">
+              <div class="icon" aria-hidden="true">🔒</div>
+              <h3>Security & QA</h3>
+              <p>Protect your product with dependable testing and secure architecture.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio section" id="portfolio" aria-labelledby="portfolio-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Portfolio</p>
+            <h2 id="portfolio-title">Selected work from recent launches.</h2>
+            <p>Explore a sample of the digital experiences we’ve crafted for ambitious teams.</p>
+          </div>
+          <div class="portfolio-grid">
+            <article class="project-card reveal">
+              <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80" alt="Analytics dashboard project" loading="lazy" decoding="async" />
+              <div class="project-overlay">
+                <h3>Northstar Analytics</h3>
+                <p>Data-rich dashboards for modern operations teams.</p>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" alt="Software platform project" loading="lazy" decoding="async" />
+              <div class="project-overlay">
+                <h3>Nova Finance</h3>
+                <p>Secure onboarding flows for a digital-first fintech brand.</p>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80" alt="Product management project" loading="lazy" decoding="async" />
+              <div class="project-overlay">
+                <h3>Pulse CRM</h3>
+                <p>Streamlined client management for a high-growth agency.</p>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="Team collaboration project" loading="lazy" decoding="async" />
+              <div class="project-overlay">
+                <h3>Lumen Studio</h3>
+                <p>Immersive brand experiences for a global design house.</p>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80" alt="Digital marketplace project" loading="lazy" decoding="async" />
+              <div class="project-overlay">
+                <h3>Vertex Market</h3>
+                <p>Scalable commerce platform for emerging product launches.</p>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="AI dashboard project" loading="lazy" decoding="async" />
+              <div class="project-overlay">
+                <h3>Signal AI</h3>
+                <p>Intelligent insights for operational decision-making.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats section" aria-labelledby="stats-title">
+        <div class="container stats-grid">
+          <article class="stat-card reveal">
+            <h3 id="stats-title" data-count="120">0</h3>
+            <p>Projects Delivered</p>
+          </article>
+          <article class="stat-card reveal">
+            <h3 data-count="95">0</h3>
+            <p>Client Satisfaction</p>
+          </article>
+          <article class="stat-card reveal">
+            <h3 data-count="15">0</h3>
+            <p>Years Experience</p>
+          </article>
+          <article class="stat-card reveal">
+            <h3 data-count="24">0</h3>
+            <p>Global Partners</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="testimonials section" aria-labelledby="testimonials-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Testimonials</p>
+            <h2 id="testimonials-title">Trusted by founders and product teams.</h2>
+            <p>Their feedback reflects the care we bring to every engagement.</p>
+          </div>
+          <div class="testimonial-grid">
+            <article class="testimonial-card reveal">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80" alt="Portrait of Maya Chen" loading="lazy" decoding="async" />
+              <p>“DecodeLabs made our launch feel effortless. The product exceeded every expectation.”</p>
+              <h3>Maya Chen</h3>
+              <p class="testimonial-role">Founder, Northstar</p>
+              <div class="stars" aria-label="5 star rating">★★★★★</div>
+            </article>
+            <article class="testimonial-card reveal">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80" alt="Portrait of Daniel Brooks" loading="lazy" decoding="async" />
+              <p>“Their process is thoughtful, collaborative, and incredibly detail-oriented.”</p>
+              <h3>Daniel Brooks</h3>
+              <p class="testimonial-role">Product Lead, Nova</p>
+              <div class="stars" aria-label="5 star rating">★★★★★</div>
+            </article>
+            <article class="testimonial-card reveal">
+              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=300&q=80" alt="Portrait of Sophia Alvarez" loading="lazy" decoding="async" />
+              <p>“We launched faster and with better design thanks to their expert team.”</p>
+              <h3>Sophia Alvarez</h3>
+              <p class="testimonial-role">CEO, Pulse</p>
+              <div class="stars" aria-label="5 star rating">★★★★★</div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq section" aria-labelledby="faq-title">
+        <div class="container faq-wrap">
+          <div class="section-heading reveal">
+            <p class="eyebrow">FAQ</p>
+            <h2 id="faq-title">Questions we hear often.</h2>
+            <p>Here’s a quick guide to our collaboration style and delivery process.</p>
+          </div>
+          <div class="faq-list reveal">
+            <article class="faq-item active">
+              <h3>
+                <button class="faq-question" type="button" aria-expanded="true">
+                  What types of projects do you build?
+                  <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+              </h3>
+              <div class="faq-answer">
+                <p>We build websites, SaaS platforms, dashboards, e-commerce experiences, and product-led growth tools.</p>
+              </div>
+            </article>
+            <article class="faq-item">
+              <h3>
+                <button class="faq-question" type="button" aria-expanded="false">
+                  How long does a typical project take?
+                  <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+              </h3>
+              <div class="faq-answer">
+                <p>Most MVPs launch within 2 to 4 weeks, while larger engagements vary based on scope and complexity.</p>
+              </div>
+            </article>
+            <article class="faq-item">
+              <h3>
+                <button class="faq-question" type="button" aria-expanded="false">
+                  Do you support ongoing maintenance?
+                  <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+              </h3>
+              <div class="faq-answer">
+                <p>Yes. We offer maintenance plans for updates, support, analytics, and continuous improvement.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-grid">
+          <div class="contact-copy reveal">
+            <p class="eyebrow">Contact</p>
+            <h2 id="contact-title">Let’s create something remarkable together.</h2>
+            <p>Tell us about your idea and we’ll help you turn it into a polished digital experience.</p>
+            <ul class="contact-info">
+              <li>📍 45 Harbor Avenue, Seattle</li>
+              <li>📧 hello@decodelabs.com</li>
+              <li>📞 +1 (206) 555-0198</li>
+            </ul>
+          </div>
+          <form class="contact-form reveal" id="contactForm" novalidate>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" autocomplete="off" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <p class="form-message" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand footer-brand" href="#home">
+            <span class="brand-mark" aria-hidden="true">D</span>
+            <span>DecodeLabs</span>
+          </a>
+          <p>Designing thoughtful digital products with clarity, craft, and care.</p>
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="mailto:hello@decodelabs.com">hello@decodelabs.com</a></li>
+            <li><a href="tel:+12065550198">+1 (206) 555-0198</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Follow</h3>
+          <div class="social-links">
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram">📸</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn">in</a>
+            <a href="https://dribbble.com/" target="_blank" rel="noreferrer" aria-label="Dribbble">⚡</a>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© 2026 DecodeLabs. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top" type="button" aria-label="Back to top">↑</button>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

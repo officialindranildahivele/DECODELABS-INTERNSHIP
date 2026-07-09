@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <rect width="1400" height="900" fill="#0f172a"/>
+  <rect x="40" y="40" width="1320" height="820" rx="28" fill="#f8fafc"/>
+  <rect x="80" y="90" width="400" height="34" rx="17" fill="#6d5dfc" opacity="0.9"/>
+  <rect x="80" y="150" width="620" height="26" rx="13" fill="#64748b" opacity="0.7"/>
+  <rect x="80" y="190" width="500" height="26" rx="13" fill="#64748b" opacity="0.5"/>
+  <rect x="80" y="260" width="320" height="46" rx="23" fill="#3b82f6"/>
+  <rect x="420" y="260" width="180" height="46" rx="23" fill="#e2e8f0"/>
+  <rect x="80" y="340" width="560" height="250" rx="24" fill="#eef2ff"/>
+  <rect x="760" y="330" width="480" height="280" rx="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="800" y="380" width="220" height="18" rx="9" fill="#94a3b8"/>
+  <rect x="800" y="418" width="170" height="18" rx="9" fill="#cbd5e1"/>
+  <rect x="800" y="468" width="250" height="140" rx="16" fill="#dbeafe"/>
+  <circle cx="1160" cy="520" r="70" fill="#6d5dfc" opacity="0.16"/>
+  <text x="80" y="760" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#0f172a">DecodeLabs</text>
+  <text x="80" y="805" font-family="Arial, sans-serif" font-size="24" fill="#475569">Responsive landing page preview</text>
+</svg>

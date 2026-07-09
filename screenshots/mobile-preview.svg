@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200">
+  <rect width="800" height="1200" fill="#020617"/>
+  <rect x="70" y="70" width="660" height="1060" rx="40" fill="#f8fafc"/>
+  <rect x="110" y="120" width="220" height="28" rx="14" fill="#6d5dfc"/>
+  <rect x="110" y="180" width="360" height="24" rx="12" fill="#64748b" opacity="0.7"/>
+  <rect x="110" y="220" width="300" height="24" rx="12" fill="#64748b" opacity="0.5"/>
+  <rect x="110" y="280" width="180" height="44" rx="22" fill="#3b82f6"/>
+  <rect x="310" y="280" width="120" height="44" rx="22" fill="#e2e8f0"/>
+  <rect x="110" y="360" width="580" height="220" rx="24" fill="#eef2ff"/>
+  <rect x="110" y="620" width="260" height="140" rx="20" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="410" y="620" width="260" height="140" rx="20" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="110" y="820" width="580" height="140" rx="20" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="110" y="1030" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#0f172a">Mobile view</text>
+  <text x="110" y="1070" font-family="Arial, sans-serif" font-size="20" fill="#475569">Ready for small screens</text>
+</svg>
