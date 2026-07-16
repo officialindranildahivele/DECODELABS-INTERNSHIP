@@ -1,44 +1,39 @@
-# Project 2 - User Management API
+# ⚙️ Project 2 - User Management API
 
 ## Project Overview
-This project is a modular Express.js backend API for managing users. It uses an in-memory array for data storage and provides RESTful endpoints for creating, reading, updating, and deleting users.
+This project is a modular Express.js backend API for managing users. It uses an in-memory array for storage and provides RESTful CRUD endpoints with validation and structured error responses.
 
-## Features
+## ✨ Features
 - Express server with JSON parsing and CORS enabled
-- RESTful API endpoints for users
-- Input validation for missing fields, empty payloads, and invalid email addresses
+- RESTful endpoints for user management
+- Input validation for empty payloads, missing fields, and invalid email formats
 - In-memory user storage with CRUD operations
 - Centralized error handling and JSON responses
-- Clean modular folder structure for maintainability
+- Clean modular architecture with separate routes, controllers, middleware, and utilities
 - Postman collection included for quick API testing
 
-## Folder Structure
+## 📁 Folder Structure
 ```text
-project2/
+Project2/
 ├── server.js
 ├── package.json
 ├── package-lock.json
 ├── routes/
-│   └── userRoutes.js
 ├── controllers/
-│   └── userController.js
 ├── middleware/
-│   ├── errorMiddleware.js
-│   └── validateUser.js
 ├── utils/
-│   └── userStore.js
 ├── README.md
 └── PostmanCollection.json
 ```
 
-## Installation
+## ▶️ Installation
 From the project directory, install the dependencies:
 
 ```bash
 npm install
 ```
 
-## Run Commands
+## 🧪 How to Run
 Start the server in development mode:
 
 ```bash
@@ -51,13 +46,19 @@ Or start it in production mode:
 npm start
 ```
 
-The server will run at:
+The API will run at:
 
 ```text
 http://localhost:3000
 ```
 
-## API Documentation
+## 🛠️ Technologies Used
+- Node.js
+- Express.js
+- CORS
+- Nodemon
+
+## 📚 API Documentation
 ### Available Endpoints
 - GET `/`
 - GET `/users`
@@ -74,7 +75,7 @@ http://localhost:3000
 - `500 Internal Server Error`
 
 ### Example Requests
-#### Get root health check
+#### Health check
 ```bash
 curl http://localhost:3000/
 ```
@@ -82,11 +83,6 @@ curl http://localhost:3000/
 #### Get all users
 ```bash
 curl http://localhost:3000/users
-```
-
-#### Get a single user
-```bash
-curl http://localhost:3000/users/1
 ```
 
 #### Create a user
@@ -108,7 +104,7 @@ curl -X PUT http://localhost:3000/users/1 \
 curl -X DELETE http://localhost:3000/users/1
 ```
 
-## Example Responses
+## 📦 Example Responses
 ### GET /
 ```json
 {
@@ -132,18 +128,6 @@ curl -X DELETE http://localhost:3000/users/1
 ]
 ```
 
-### POST /users
-```json
-{
-  "message": "User Created",
-  "user": {
-    "id": 3,
-    "name": "Charlie Brown",
-    "email": "charlie@example.com"
-  }
-}
-```
-
 ### Validation error
 ```json
 {
@@ -151,29 +135,19 @@ curl -X DELETE http://localhost:3000/users/1
 }
 ```
 
-### User not found
-```json
-{
-  "error": "User not found"
-}
-```
+## 📸 Screenshots
+- Postman API collection available in [PostmanCollection.json](PostmanCollection.json)
+- Add screenshots here after testing the API in Postman or a browser
 
-## Screenshots
-Add screenshots here after testing the API in Postman or a browser.
+## 🔮 Future Improvements
+- Add a database layer for persistent storage
+- Add authentication and authorization
+- Add automated tests
+- Improve error messages and request validation
 
-## Technologies Used
-- Node.js
-- Express.js
-- CORS
-- Nodemon
-
-## Expected Terminal Output
-When the server starts successfully:
-
-```bash
-Server running on http://localhost:3000
-```
-
-## Notes
+## 📝 Notes
 - The project uses an in-memory array, so data resets when the server restarts.
 - The Postman collection file can be imported directly for manual API testing.
+
+## 📄 License
+This project is licensed under the MIT License.

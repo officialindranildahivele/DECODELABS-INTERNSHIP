@@ -1,85 +1,71 @@
-# DecodeLabs Landing Page
+# 🌐 Project 1 - Responsive Landing Page
 
-A polished, responsive landing page for a fictional software studio that showcases modern UI/UX, semantic HTML, and accessible frontend engineering.
+## Project Overview
+This project is a polished, responsive landing page for a fictional software studio. It highlights modern UI/UX design, semantic HTML structure, accessible interactions, and clean frontend engineering.
 
-## Features
-
-- Responsive mobile-first navigation
-- Smooth scrolling with active section highlighting
-- Animated hero typing effect and scroll-reveal transitions
+## ✨ Features
+- Responsive mobile-first layout
+- Smooth scrolling and active section highlighting
+- Animated hero section and scroll-reveal transitions
 - About, services, portfolio, stats, testimonials, FAQ, and contact sections
 - Accessible FAQ accordion and contact form validation
 - Dark mode toggle and back-to-top action
-- SEO-friendly metadata and performance-conscious asset loading
+- SEO-friendly metadata and performance-aware asset loading
 
-## Technologies Used
-
-- HTML5
-- CSS3
-- Vanilla JavaScript
-- SVG illustrations
-- Google Fonts (Inter)
-
-## Folder Structure
-
+## 📁 Folder Structure
 ```text
-PROJECT1/
+Project1/
 ├── index.html
 ├── css/
 │   └── style.css
 ├── js/
 │   └── script.js
 ├── images/
-│   ├── hero-illustration.svg
-│   ├── about-illustration.svg
-│   └── favicon.svg
-├── README.md
-└── .gitignore
+├── screenshots/
+├── server.py
+└── README.md
 ```
 
-## Installation
-
-1. Clone the repository.
-2. Open the project folder in VS Code.
-3. Start the site with the backend-enabled server:
+## ▶️ Installation
+1. Open the project folder in VS Code.
+2. Start the server:
 
 ```bash
 python3 server.py
 ```
 
-4. Visit http://localhost:8000
+3. Visit:
 
-## Usage
+```text
+http://localhost:8000
+```
 
-This project is ideal for showcasing a responsive agency-style homepage, portfolio landing page, or front-end portfolio concept.
+## 🛠️ Technologies Used
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- SVG illustrations
+- Google Fonts (Inter)
 
-## Screenshots
+## 📸 Screenshots
+- Desktop preview coming soon
+- Mobile preview coming soon
 
-![Desktop preview](screenshots/desktop-preview.svg)
+## 🧪 How to Run
+This project is ideal for showcasing a responsive agency-style homepage, portfolio landing page, or a polished frontend portfolio concept.
 
-![Mobile preview](screenshots/mobile-preview.svg)
-
-## Live Demo
-
-- Local: http://localhost:8000
-- GitHub Pages: update after deployment
-
-## GitHub
-
-- Repository: https://github.com/your-username/your-repo
-- Live preview: https://your-username.github.io/your-repo/
-
-## Future Improvements
-
+## 🔮 Future Improvements
 - Add real project case studies
 - Connect the contact form to a backend service
-- Add animation performance refinements for lower-end devices
-- Introduce a CMS or content-driven section structure
+- Improve animations for lower-end devices
+- Add a CMS-driven content structure
 
-## License
+## 📝 Notes
+- The project is designed to be lightweight and easy to run locally.
+- It can be extended into a full portfolio website with real content.
 
+## 📄 License
 This project is licensed under the MIT License.
 
-## Author
-
+## 👨‍💻 Author
 DecodeLabs
