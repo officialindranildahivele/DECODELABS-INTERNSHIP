@@ -1,42 +1,44 @@
-# ⚙️ Project 2 - User Management API
-
-![Node.js](https://img.shields.io/badge/Node.js-Express-green.svg)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+# Project 2 - User Management API
 
 ## Project Overview
-This project is a professional Express.js backend API for managing users. It demonstrates clean RESTful design, input validation, modular architecture, and structured JSON responses while using an in-memory data store for simplicity and rapid testing.
+This project is a modular Express.js backend API for managing users. It uses an in-memory array for data storage and provides RESTful endpoints for creating, reading, updating, and deleting users.
 
-## ✨ Features
+## Features
 - Express server with JSON parsing and CORS enabled
-- RESTful endpoints for user management
-- Input validation for empty payloads, missing fields, and invalid email formats
+- RESTful API endpoints for users
+- Input validation for missing fields, empty payloads, and invalid email addresses
 - In-memory user storage with CRUD operations
-- Centralized error handling and consistent JSON responses
-- Clean modular architecture with separate routes, controllers, middleware, and utilities
+- Centralized error handling and JSON responses
+- Clean modular folder structure for maintainability
 - Postman collection included for quick API testing
 
-## 📁 Folder Structure
+## Folder Structure
 ```text
-Project2/
+project2/
 ├── server.js
 ├── package.json
 ├── package-lock.json
 ├── routes/
+│   └── userRoutes.js
 ├── controllers/
+│   └── userController.js
 ├── middleware/
+│   ├── errorMiddleware.js
+│   └── validateUser.js
 ├── utils/
+│   └── userStore.js
 ├── README.md
 └── PostmanCollection.json
 ```
 
-## ▶️ Installation
+## Installation
 From the project directory, install the dependencies:
 
 ```bash
 npm install
 ```
 
-## 🧪 How to Run
+## Run Commands
 Start the server in development mode:
 
 ```bash
@@ -49,28 +51,20 @@ Or start it in production mode:
 npm start
 ```
 
-The API will run at:
+The server will run at:
 
 ```text
 http://localhost:3000
 ```
 
-## 🛠️ Technologies Used
-- Node.js
-- Express.js
-- CORS
-- Nodemon
-- JSON
-- REST API Design
-
-## 📚 API Documentation
+## API Documentation
 ### Available Endpoints
-- `GET /`
-- `GET /users`
-- `GET /users/:id`
-- `POST /users`
-- `PUT /users/:id`
-- `DELETE /users/:id`
+- GET `/`
+- GET `/users`
+- GET `/users/:id`
+- POST `/users`
+- PUT `/users/:id`
+- DELETE `/users/:id`
 
 ### HTTP Status Codes
 - `200 OK`
@@ -80,7 +74,7 @@ http://localhost:3000
 - `500 Internal Server Error`
 
 ### Example Requests
-#### Health check
+#### Get root health check
 ```bash
 curl http://localhost:3000/
 ```
@@ -114,7 +108,7 @@ curl -X PUT http://localhost:3000/users/1 \
 curl -X DELETE http://localhost:3000/users/1
 ```
 
-## 📦 Example Responses
+## Example Responses
 ### GET /
 ```json
 {
@@ -138,6 +132,18 @@ curl -X DELETE http://localhost:3000/users/1
 ]
 ```
 
+### POST /users
+```json
+{
+  "message": "User Created",
+  "user": {
+    "id": 3,
+    "name": "Charlie Brown",
+    "email": "charlie@example.com"
+  }
+}
+```
+
 ### Validation error
 ```json
 {
@@ -145,20 +151,64 @@ curl -X DELETE http://localhost:3000/users/1
 }
 ```
 
-## 📸 Screenshots
-- Postman API collection available in [PostmanCollection.json](PostmanCollection.json)
-- Add screenshots here after testing the API in Postman or a browser
+### User not found
+```json
+{
+  "error": "User not found"
+}
+```
 
-## 🔮 Future Improvements
-- Add a database layer for persistent storage
-- Add authentication and authorization
-- Add automated tests
-- Improve error messages and request validation
+## 📸 API Screenshots
 
-## 📝 Notes
+### Server Running
+
+![Server Running](screenshots/server-running.svg)
+
+### GET /
+
+![GET Root](screenshots/get-root.svg)
+
+### GET /users
+
+![GET Users](screenshots/get-users.svg)
+
+### GET /users/:id
+
+![GET User](screenshots/get-user.svg)
+
+### POST /users
+
+![Create User](screenshots/create-user.svg)
+
+### PUT /users/:id
+
+![Update User](screenshots/update-user.svg)
+
+### DELETE /users/:id
+
+![Delete User](screenshots/delete-user.svg)
+
+### Validation Error
+
+![Validation Error](screenshots/validation-error.svg)
+
+### User Not Found
+
+![User Not Found](screenshots/user-not-found.svg)
+
+## Technologies Used
+- Node.js
+- Express.js
+- CORS
+- Nodemon
+
+## Expected Terminal Output
+When the server starts successfully:
+
+```bash
+Server running on http://localhost:3000
+```
+
+## Notes
 - The project uses an in-memory array, so data resets when the server restarts.
 - The Postman collection file can be imported directly for manual API testing.
-- This project is ideal for demonstrating backend API fundamentals in a portfolio.
-
-## 📄 License
-This project is licensed under the MIT License.
