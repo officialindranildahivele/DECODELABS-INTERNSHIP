@@ -1,5 +1,8 @@
 # ⚙️ Project 2 - User Management API
 
+![Node.js](https://img.shields.io/badge/Node.js-Express-green.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
 ## Project Overview
 This project is a professional Express.js backend API for managing users. It demonstrates clean RESTful design, input validation, modular architecture, and structured JSON responses while using an in-memory data store for simplicity and rapid testing.
 
