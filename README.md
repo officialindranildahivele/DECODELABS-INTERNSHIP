@@ -8,6 +8,31 @@ Professional portfolio repository for two internship-style projects: a responsiv
 
 This repository demonstrates clean frontend and backend engineering with polished documentation, modular architecture, and reproducible local setup. It is optimized for recruiter review and open-source presentation.
 
+## ⭐ Highlights
+
+- Responsive landing page built with HTML5, CSS3, and JavaScript
+- User management REST API built with Node.js and Express.js
+- Modular architecture with a clear and professional project structure
+- Clean, recruiter-friendly documentation
+- Input validation and robust error handling
+- Well-organized GitHub presentation for portfolio review
+
+## 📸 Project Preview
+
+### 🌐 Project 1 — Responsive Landing Page
+
+![Desktop Preview](PROJECT1/Project1/screenshots/desktop-preview.svg)
+
+![Mobile Preview](PROJECT1/Project1/screenshots/mobile-preview.svg)
+
+---
+
+### 🚀 Project 2 — User Management API
+
+![Server Running](PROJECT2/screenshots/server-running.svg)
+
+![Get Users](PROJECT2/screenshots/get-users.svg)
+
 ## Projects 📁
 
 | Project | Type | Description |
@@ -15,12 +40,37 @@ This repository demonstrates clean frontend and backend engineering with polishe
 | [Project 1 — Landing Page](PROJECT1/Project1/README.md) | Frontend | Agency-style responsive homepage with accessible interactions |
 | [Project 2 — User Management API](PROJECT2/README.md) | Backend | Express.js REST API for user CRUD operations with validation |
 
-## Technologies Used 🛠️
+## 🛠 Tech Stack
 
-- HTML5, CSS3, JavaScript
-- Node.js, Express.js
-- CORS, Nodemon
-- SVG, semantic markup, responsive design
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+
+### Backend
+- Node.js
+- Express.js
+- CORS
+- Nodemon
+
+### Tools
+- Git
+- GitHub
+- VS Code
+- Postman
+
+## 📚 Skills Demonstrated
+
+- Responsive Web Design
+- REST API Development
+- CRUD Operations
+- Express Middleware
+- Error Handling
+- Input Validation
+- Git & GitHub Workflow
+- Documentation
+- Project Structure
+- RESTful Architecture
 
 ## Repository Structure 📂
 
@@ -69,7 +119,6 @@ http://localhost:8000
 
 MIT License — see the `LICENSE` file for details.
 
-## Notes
+## 📌 Key Takeaways
 
-- The repository focuses on documentation, code clarity, and demo readiness.
-- Project 1 is a static frontend showcase. Project 2 is a demo API with in-memory storage.
+This repository showcases practical frontend and backend development completed during the DecodeLabs Internship, with emphasis on clean code, modular architecture, documentation, Git workflow, and software engineering best practices.
