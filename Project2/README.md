@@ -1,14 +1,14 @@
 # ⚙️ Project 2 - User Management API
 
 ## Project Overview
-This project is a modular Express.js backend API for managing users. It uses an in-memory array for storage and provides RESTful CRUD endpoints with validation and structured error responses.
+This project is a professional Express.js backend API for managing users. It demonstrates clean RESTful design, input validation, modular architecture, and structured JSON responses while using an in-memory data store for simplicity and rapid testing.
 
 ## ✨ Features
 - Express server with JSON parsing and CORS enabled
 - RESTful endpoints for user management
 - Input validation for empty payloads, missing fields, and invalid email formats
 - In-memory user storage with CRUD operations
-- Centralized error handling and JSON responses
+- Centralized error handling and consistent JSON responses
 - Clean modular architecture with separate routes, controllers, middleware, and utilities
 - Postman collection included for quick API testing
 
@@ -57,15 +57,17 @@ http://localhost:3000
 - Express.js
 - CORS
 - Nodemon
+- JSON
+- REST API Design
 
 ## 📚 API Documentation
 ### Available Endpoints
-- GET `/`
-- GET `/users`
-- GET `/users/:id`
-- POST `/users`
-- PUT `/users/:id`
-- DELETE `/users/:id`
+- `GET /`
+- `GET /users`
+- `GET /users/:id`
+- `POST /users`
+- `PUT /users/:id`
+- `DELETE /users/:id`
 
 ### HTTP Status Codes
 - `200 OK`
@@ -83,6 +85,11 @@ curl http://localhost:3000/
 #### Get all users
 ```bash
 curl http://localhost:3000/users
+```
+
+#### Get a single user
+```bash
+curl http://localhost:3000/users/1
 ```
 
 #### Create a user
@@ -148,6 +155,7 @@ curl -X DELETE http://localhost:3000/users/1
 ## 📝 Notes
 - The project uses an in-memory array, so data resets when the server restarts.
 - The Postman collection file can be imported directly for manual API testing.
+- This project is ideal for demonstrating backend API fundamentals in a portfolio.
 
 ## 📄 License
 This project is licensed under the MIT License.
