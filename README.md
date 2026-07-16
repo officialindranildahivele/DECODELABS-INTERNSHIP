@@ -21,24 +21,24 @@ This repository demonstrates clean frontend and backend engineering with polishe
 
 ### 🌐 Project 1 — Responsive Landing Page
 
-![Desktop Preview](PROJECT1/Project1/screenshots/desktop-preview.svg)
+![Desktop Preview](Project1/screenshots/desktop-preview.svg)
 
-![Mobile Preview](PROJECT1/Project1/screenshots/mobile-preview.svg)
+![Mobile Preview](Project1/screenshots/mobile-preview.svg)
 
 ---
 
 ### 🚀 Project 2 — User Management API
 
-![Server Running](PROJECT2/screenshots/server-running.svg)
+![Server Running](Project2/screenshots/server-running.svg)
 
-![Get Users](PROJECT2/screenshots/get-users.svg)
+![Get Users](Project2/screenshots/get-users.svg)
 
 ## Projects 📁
 
 | Project | Type | Description |
-| --- | --- | --- |
-| [Project 1 — Landing Page](PROJECT1/Project1/README.md) | Frontend | Agency-style responsive homepage with accessible interactions |
-| [Project 2 — User Management API](PROJECT2/README.md) | Backend | Express.js REST API for user CRUD operations with validation |
+|---------|------|-------------|
+| [Project 1 – Responsive Landing Page](Project1/README.md) | Frontend | Agency-style responsive homepage with accessible interactions |
+| [Project 2 – User Management API](Project2/README.md) | Backend | Express.js REST API for CRUD operations with validation |
 
 ## 🛠 Tech Stack
 
@@ -75,11 +75,11 @@ This repository demonstrates clean frontend and backend engineering with polishe
 ## Repository Structure 📂
 
 ```text
-DECODELABS/
+DECODELABS-INTERNSHIP/
+├── README.md
 ├── LICENSE
-├── PROJECT1/
-│   └── Project1/        # Frontend landing page with screenshots and server script
-└── PROJECT2/            # Backend API with routes, controller, middleware, and screenshots
+├── Project1/
+└── Project2/
 ```
 
 ## Installation
@@ -93,7 +93,7 @@ git clone https://github.com/officialindranildahivele/DECODELABS-INTERNSHIP.git
 ### Run Project 2 (API)
 
 ```bash
-cd DECODELABS-INTERNSHIP/PROJECT2
+cd DECODELABS-INTERNSHIP/Project2
 npm install
 npm run dev
 ```
@@ -101,7 +101,7 @@ npm run dev
 ### Run Project 1 (Landing Page)
 
 ```bash
-cd DECODELABS-INTERNSHIP/PROJECT1/Project1
+cd DECODELABS-INTERNSHIP/Project1
 python3 server.py
 ```
 
