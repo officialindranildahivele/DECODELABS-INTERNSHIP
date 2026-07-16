@@ -1,5 +1,10 @@
 # 🚀 DecodeLabs Internship Portfolio
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow.svg)
+![Node.js](https://img.shields.io/badge/Node.js-Express-green.svg)
+![HTML5](https://img.shields.io/badge/HTML5-Frontend-orange.svg)
+
 Welcome to my internship portfolio repository, where I showcase the projects I built during the DecodeLabs internship. This collection reflects my growth in frontend development, backend APIs, and professional documentation practices.
 
 <<<<<<< HEAD
