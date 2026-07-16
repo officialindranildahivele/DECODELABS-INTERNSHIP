@@ -1,122 +1,75 @@
-# 🚀 DecodeLabs Internship Portfolio
+# DECODELABS — Internship Projects 🚀
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow.svg)
-![Node.js](https://img.shields.io/badge/Node.js-Express-green.svg)
-![HTML5](https://img.shields.io/badge/HTML5-Frontend-orange.svg)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white) ![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat)
 
-Welcome to my internship portfolio repository, where I showcase the projects I built during the DecodeLabs internship. This collection reflects my growth in frontend development, backend APIs, and professional documentation practices.
+Professional portfolio repository for two internship-style projects: a responsive frontend landing page and a backend user management API.
 
-<<<<<<< HEAD
-## 📂 Projects
+## Project Overview
 
-### Project 1 – Responsive Landing Page
+This repository demonstrates clean frontend and backend engineering with polished documentation, modular architecture, and reproducible local setup. It is optimized for recruiter review and open-source presentation.
 
-**Tech Stack**
-- HTML5
-- CSS3
-- JavaScript
+## Projects 📁
 
-**Features**
-- Responsive Design
-- Semantic HTML
-- Flexbox & CSS Grid
+| Project | Type | Description |
+| --- | --- | --- |
+| [Project 1 — Landing Page](PROJECT1/Project1/README.md) | Frontend | Agency-style responsive homepage with accessible interactions |
+| [Project 2 — User Management API](PROJECT2/README.md) | Backend | Express.js REST API for user CRUD operations with validation |
 
-📁 Location: `Project1/`
+## Technologies Used 🛠️
 
----
+- HTML5, CSS3, JavaScript
+- Node.js, Express.js
+- CORS, Nodemon
+- SVG, semantic markup, responsive design
 
-### Project 2 – User Management API
+## Repository Structure 📂
 
-**Tech Stack**
-- Node.js
-- Express.js
-- CORS
-- Nodemon
-
-**Features**
-- RESTful CRUD API
-- User Validation
-- JSON Responses
-- Error Handling
-- Modular Architecture
-- Postman Collection Included
-
-📁 Location: `Project2/`
-=======
-## ✨ Project Overview
-This repository contains a curated set of hands-on projects completed during the internship. Each project demonstrates practical implementation skills, clean code structure, and a focus on user experience and maintainability.
-
-## 📚 Projects
-
-| Project | Description | Stack | Status |
-|---|---|---|---|
-| [Project 1](Project1) | Responsive landing page with modern UI, animations, and accessibility-focused design | HTML5, CSS3, JavaScript | Completed |
-| [Project 2](Project2) | RESTful user management API built with Node.js and Express | Node.js, Express.js, CORS, Nodemon | Completed |
-
-## 🛠️ Technologies Used
-- HTML5
-- CSS3
-- JavaScript
-- Node.js
-- Express.js
-- CORS
-- Nodemon
-- Git & GitHub
-
-## 📁 Folder Structure
 ```text
-DECODELABS-INTERNSHIP/
-├── Project1/
-│   ├── index.html
-│   ├── css/
-│   ├── js/
-│   ├── images/
-│   └── README.md
-├── Project2/
-│   ├── server.js
-│   ├── routes/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── utils/
-│   └── README.md
-└── README.md
+DECODELABS/
+├── LICENSE
+├── PROJECT1/
+│   └── Project1/        # Frontend landing page with screenshots and server script
+└── PROJECT2/            # Backend API with routes, controller, middleware, and screenshots
 ```
->>>>>>> b0f583a (Polish portfolio documentation)
 
-## ▶️ Installation
-Clone the repository and navigate into the project folder you want to run:
+## Installation
+
+Clone the repository and install dependencies for the project you want to run.
 
 ```bash
 git clone https://github.com/officialindranildahivele/DECODELABS-INTERNSHIP.git
-cd DECODELABS-INTERNSHIP
 ```
 
-<<<<<<< HEAD
-## 👨‍💻 Author
-=======
-## 🧪 How to Run
-- For Project 1, open the folder and run the local server as described in its README.
-- For Project 2, navigate into the project folder and run:
->>>>>>> b0f583a (Polish portfolio documentation)
+### Run Project 2 (API)
 
 ```bash
-cd Project2
+cd DECODELABS-INTERNSHIP/PROJECT2
 npm install
 npm run dev
 ```
 
-## 👨‍💻 Author
-**Indranil Dahivele**
+### Run Project 1 (Landing Page)
 
-GitHub: https://github.com/officialindranildahivele
+```bash
+cd DECODELABS-INTERNSHIP/PROJECT1/Project1
+python3 server.py
+```
 
-## 📄 License
-This repository is licensed under the MIT License.
+Then open:
 
-## 🌟 Future Improvements
-- Add more full-stack projects
-- Add live deployment links
-- Improve project screenshots and visual assets
-- Add CI/CD and testing workflows
-- Expand the portfolio with a contact section and case studies
+```text
+http://localhost:8000
+```
+
+## Author 👨‍💻
+
+**Indranil Dahivele** — https://github.com/officialindranildahivele
+
+## License
+
+MIT License — see the `LICENSE` file for details.
+
+## Notes
+
+- The repository focuses on documentation, code clarity, and demo readiness.
+- Project 1 is a static frontend showcase. Project 2 is a demo API with in-memory storage.
